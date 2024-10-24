@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/oppo-source/A72/tree/main/kernel-4.14
+          kernel-url: https://github.com/oppo-source/A72/tree/main
           kernel-dir: msm-4.14
           kernel-branch: main
           config: oppo6853_debug_defconfig
