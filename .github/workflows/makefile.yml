@@ -15,10 +15,10 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/oppo-source/A72
-          kernel-dir: msm-4.14
-          kernel-branch: mian
-          config: oppo6853_defconfig
+          kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/star-r-oss
+          kernel-dir: msm-5.4
+          kernel-branch: bsp-rothko-u-oss
+          config: gki_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
